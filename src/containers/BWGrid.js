@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Color from 'color';
 import Matrix from '../components/Matrix';
 
 class BWGrid extends Component {
