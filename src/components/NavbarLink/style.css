@@ -1,0 +1,8 @@
+.navbar-link {
+  padding: 8px 16px;
+  border: solid 1px transparent;
+}
+
+.navbar-link:hover {
+  border-color: #000000;
+}

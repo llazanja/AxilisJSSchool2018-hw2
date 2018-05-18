@@ -1,0 +1,20 @@
+.cell {
+  position: relative;
+}
+
+.cell.clickable::after {
+  content: '࿕';
+  font-size: 36px;
+  position: absolute;
+  visibility: hidden;
+  top: -4px;
+  right: 10px;
+}
+
+.cell.selected::after {
+  visibility: visible;
+}
+
+.cell:hover::after {
+  visibility: visible;
+}

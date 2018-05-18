@@ -1,5 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #000000;
+  margin: 40px auto;
+}
+
+.wrapper div {
+  flex-basis: 10%;
+  padding-top: 10%;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
